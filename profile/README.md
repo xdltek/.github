@@ -109,11 +109,11 @@ SDK & Deployment Systems
 
 ---
 
-## 📊 GitHub Activity
+## 📊 Activity
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=xdltek&show_icons=true&theme=tokyonight" />
-</p>
+- 🚀 Active development in AI inference and edge deployment  
+- ⚡ Continuous updates on SDK and acceleration frameworks  
+- 🤖 Ongoing work on model optimization and deployment tools  
 
 ---
 
