@@ -1,91 +1,148 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=xdltek&fontSize=50&fontColor=ffffff" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a192f,50:0f3460,100:1e6091&height=240&section=header&text=XDLTEK&fontSize=60&fontColor=ffffff&animation=fadeIn" />
 </p>
 
 <h1 align="center">🚀 xdltek</h1>
+
 <p align="center">
-  <b>AI Vision · Deep Learning · Edge Intelligence</b>
+<b>High-Performance AI Inference · Edge Computing · SDK Systems</b>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.9-blue">
-  <img src="https://img.shields.io/badge/C++-17-blue">
-  <img src="https://img.shields.io/badge/AI-Computer%20Vision-green">
+  <img src="https://img.shields.io/badge/C++-Core-blue">
+  <img src="https://img.shields.io/badge/Python-AI-blue">
+  <img src="https://img.shields.io/badge/ONNX-Optimization-green">
   <img src="https://img.shields.io/badge/Edge-AI-orange">
+  <img src="https://img.shields.io/badge/Deployment-Production-red">
 </p>
 
 ---
 
-## 🧠 About Us
+## 🧠 About XDLTEK
 
-xdltek is a technology team focused on:
+xdltek is an engineering-driven AI team focused on **end-to-end inference systems**.
 
-- 🔍 Computer Vision (YOLO / ResNet / Detection)
-- 🤖 Deep Learning & Model Optimization
-- ⚡ Edge AI Deployment (Embedded / SDK)
-- 🚀 High-performance AI systems
+We specialize in building **production-ready AI pipelines**:
 
-We build efficient and deployable AI solutions for real-world applications.
+> Model → Optimization → Acceleration → Deployment → SDK
+
+Our goal is to make AI **fast, deployable, and scalable** across edge and high-performance environments.
 
 ---
 
-## 🚀 Core Projects
+## 🧭 Architecture Overview
+
+```text
+AI Model (YOLO / ResNet / LLM)
+        ↓
+Model Optimization (ONNX / Quantization)
+        ↓
+Inference Acceleration (DSP / CUDA / Edge)
+        ↓
+SDK & Deployment Systems
+```
+
+---
+
+## 🔥 Core Products (Production Level)
 
 <p align="center">
-  <a href="https://github.com/xdltek/multi_card_classification">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=xdltek&repo=multi_card_classification" />
-  </a>
-  <a href="https://github.com/xdltek/YOLOv5_Python">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=xdltek&repo=YOLOv5_Python" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/xdltek/ResNet50_Python">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=xdltek&repo=ResNet50_Python" />
-  </a>
   <a href="https://github.com/xdltek/rpp_r8_sdk">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=xdltek&repo=rpp_r8_sdk" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=xdltek&repo=rpp_r8_sdk&theme=tokyonight" />
+  </a>
+  <a href="https://github.com/xdltek/high-end-dsp-rpp-cuda">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=xdltek&repo=high-end-dsp-rpp-cuda&theme=tokyonight" />
   </a>
 </p>
 
 ---
 
-## 📊 GitHub Stats
+## 🤖 AI Models & Tooling
+
+<p align="center">
+  <a href="https://github.com/xdltek/YOLOv8">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=xdltek&repo=YOLOv8&theme=tokyonight" />
+  </a>
+  <a href="https://github.com/xdltek/YOLOv5">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=xdltek&repo=YOLOv5&theme=tokyonight" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/xdltek/ResNet50">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=xdltek&repo=ResNet50&theme=tokyonight" />
+  </a>
+  <a href="https://github.com/xdltek/onnx_model_tool">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=xdltek&repo=onnx_model_tool&theme=tokyonight" />
+  </a>
+</p>
+
+---
+
+## ⚙️ Systems & Ecosystem
+
+<p align="center">
+  <a href="https://github.com/xdltek/llama.cpp">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=xdltek&repo=llama.cpp&theme=tokyonight" />
+  </a>
+</p>
+
+---
+
+## 🧩 Core Capabilities
+
+| Capability                 | Description                              |
+| -------------------------- | ---------------------------------------- |
+| 🚀 Inference Engine        | High-performance inference acceleration  |
+| ⚡ Edge Deployment          | DSP / Embedded / Edge devices            |
+| 🧠 Model Optimization      | ONNX / Quantization / Graph optimization |
+| 🔧 SDK Systems             | Production-ready deployment SDK          |
+| 📊 Performance Engineering | Low-latency, high-throughput systems     |
+
+---
+
+## 🧱 Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=cpp,python,linux,pytorch,opencv,docker" />
+</p>
+
+---
+
+## 📊 GitHub Activity
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=xdltek&show_icons=true&theme=tokyonight" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=xdltek&theme=tokyonight" />
-</p>
+---
+
+## 🌍 Applications
+
+* 📷 Industrial Vision Systems
+* 🚗 Edge AI Devices
+* 🏭 Smart Manufacturing
+* 🤖 Real-time Detection Systems
 
 ---
 
-## 🧩 Tech Stack
+## 🤝 Collaboration
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,linux,pytorch,opencv,git,docker" />
-</p>
+We welcome collaboration in:
 
----
-
-## 🌐 Website
-
-<p align="center">
-  👉 http://xdltek.cn
-</p>
+* AI inference optimization
+* Edge deployment systems
+* High-performance computing
 
 ---
 
-## 📫 Contact
+## 🌐 Contact
 
-- 📧 Business / Collaboration: your@email.com
-- 🌏 Official Site: http://xdltek.cn
+* 🌍 Website: http://xdltek.cn
+* 📧 Email: [contact@xdltek.cn](mailto:contact@xdltek.cn)
 
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e6091,50:0f3460,100:0a192f&height=120&section=footer"/>
 </p>
