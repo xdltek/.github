@@ -108,13 +108,19 @@ We welcome collaboration on:
 
 ---
 
+## 🚀 Featured Projects
+
+Explore our core AI inference stack:
+
+---
+
 ## 🌐 Contact
 
-- 🌍 [http://xdltek.cn](https://www.xdltek.cn/)  
-- 📧 sales@xdltek.com  
+- 🌍 Website: http://xdltek.cn  
+- 📧 Email: sales@xdltek.cn  
 
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e6091,50:0f3460,100:0a192f&height=120&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f3460,100:1e6091&height=120&section=footer"/>
 </p>
