@@ -124,24 +124,3 @@ Explore our core AI inference stack:
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f3460,100:1e6091&height=120&section=footer"/>
 </p>
-
-
-
----
-
-## 🚀 Explore XDLTEK
-
-<p align="center">
-  <a href="https://github.com/xdltek/rpp_r8_sdk">
-    <img src="https://img.shields.io/badge/🚀%20RPP%20SDK-Core%20Product-blue?style=for-the-badge"/>
-  </a>
-  <a href="https://github.com/xdltek/high-end-dsp-rpp-cuda">
-    <img src="https://img.shields.io/badge/⚡%20DSP%20CUDA-Acceleration-orange?style=for-the-badge"/>
-  </a>
-</p>
-
----
-
-<p align="center">
-  <b>⬇️ Scroll ends here — explore projects above ⬆️</b>
-</p>
