@@ -110,8 +110,8 @@ We welcome collaboration on:
 
 ## 🌐 Contact
 
-- 🌍 http://xdltek.cn  
-- 📧 contact@xdltek.cn  
+- 🌍 [http://xdltek.cn](https://www.xdltek.cn/)  
+- 📧 sales@xdltek.com  
 
 ---
 
