@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="[https://capsule-render.vercel.app/api?type=waving&color=0:0a192f,50:0f3460,100:1e6091&height=240&section=header&text=XDLTEK&fontSize=60&fontColor=ffffff&animation=fadeIn](https://github.com/xdltek/.github/blob/main/assets/banner.png)" />
+  <img src="https://github.com/xdltek/.github/blob/main/assets/banner.png" />
 </p>
 
 <h1 align="center">🚀 xdltek</h1>
