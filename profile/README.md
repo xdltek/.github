@@ -5,7 +5,7 @@
 <h1 align="center">🚀 XDLTEK</h1>
 
 <p align="center">
-<b>AI Inference Infrastructure · Edge AI · CUDA Acceleration · SDK Systems</b>
+<b>AI Inference Infrastructure · CUDA Acceleration · Edge AI · SDK Systems</b>
 </p>
 
 <p align="center">
@@ -46,6 +46,7 @@ Model → Optimization → Acceleration → Deployment → SDK
 | 🚀 [SDK Deployment](#-sdk-deployment) | SDK installation and deployment |
 | ⚡ [CUDA Programming](#-cuda-programming) | CUDA kernels and GPU optimization |
 | 🧠 [OpenRT Applications](#-openrt-applications) | AI runtime and inference applications |
+| 🤖 [LLM Runtime Systems](#-llm-runtime-systems) | Lightweight LLM runtime infrastructure |
 | 🔗 [Multi-GPU Systems](#-multi-gpu-systems) | Distributed and multi-card deployment |
 | 🛠 [Tools](#-tools) | Conversion and optimization tools |
 | 📊 [Benchmark](#-benchmark) | Performance evaluation |
@@ -85,18 +86,13 @@ Production-ready AI inference SDK systems.
 - Embedded deployment
 - Production AI infrastructure
 
-## Core SDK
+## SDK Repositories
 
-### 🚀 [rpp_r8_sdk](https://github.com/xdltek/rpp_r8_sdk)
-
-High-performance inference SDK for RPP accelerators.
-
-### Features
-
-- Tensor acceleration
-- Runtime optimization
-- Embedded deployment
-- Edge AI support
+| Repository | Description |
+|---|---|
+| [rpp_r8_sdk](https://github.com/xdltek/rpp_r8_sdk) | Core inference SDK |
+| [sdk-deployment-demo](https://github.com/xdltek/sdk-deployment-demo) | SDK deployment examples |
+| [edge-sdk-runtime](https://github.com/xdltek/edge-sdk-runtime) | Embedded AI runtime |
 
 ---
 
@@ -113,18 +109,14 @@ GPU acceleration and CUDA optimization framework.
 - GPU Scheduling
 - Stream Parallelism
 
-## CUDA Framework
+## CUDA Projects
 
-### ⚡ [high-end-dsp-rpp-cuda](https://github.com/xdltek/high-end-dsp-rpp-cuda)
-
-DSP + CUDA accelerated inference framework.
-
-### Capabilities
-
-- CUDA acceleration
-- Tensor optimization
-- Edge GPU deployment
-- Real-time inference
+| Repository | Description |
+|---|---|
+| [high-end-dsp-rpp-cuda](https://github.com/xdltek/high-end-dsp-rpp-cuda) | CUDA acceleration framework |
+| [cuda-kernel-lab](https://github.com/xdltek/cuda-kernel-lab) | CUDA kernel examples |
+| [tensor-memory-opt](https://github.com/xdltek/tensor-memory-opt) | Tensor optimization |
+| [cuda-runtime-demo](https://github.com/xdltek/cuda-runtime-demo) | CUDA runtime samples |
 
 ---
 
@@ -139,7 +131,6 @@ AI runtime deployment and inference applications.
 - Edge AI runtime
 - Tensor acceleration
 - Real-time detection
-- LLM inference
 
 ## Supported Models
 
@@ -148,7 +139,38 @@ AI runtime deployment and inference applications.
 | YOLOv8 | Object Detection |
 | YOLOv5 | Real-time Detection |
 | ResNet50 | Image Classification |
-| llama.cpp | LLM Runtime |
+
+## OpenRT Samples
+
+| Sample | Description |
+|---|---|
+| [yolov8-openrt](https://github.com/xdltek/yolov8-openrt) | YOLOv8 deployment sample |
+| [resnet-openrt](https://github.com/xdltek/resnet-openrt) | ResNet inference sample |
+| [edge-runtime-demo](https://github.com/xdltek/edge-runtime-demo) | Edge AI runtime example |
+| [openrt-benchmark](https://github.com/xdltek/openrt-benchmark) | OpenRT benchmark suite |
+
+---
+
+# 🤖 LLM Runtime Systems
+
+Lightweight and high-performance LLM inference runtime.
+
+## Features
+
+- Lightweight LLM deployment
+- CPU / GPU hybrid inference
+- Quantized model support
+- Edge-side LLM runtime
+- Production inference pipeline
+
+## Runtime Projects
+
+| Project | Description |
+|---|---|
+| [llama.cpp](https://github.com/xdltek/llama.cpp) | Lightweight LLM inference runtime |
+| [llm-runtime-demo](https://github.com/xdltek/llm-runtime-demo) | LLM deployment example |
+| [gguf-tools](https://github.com/xdltek/gguf-tools) | GGUF model utilities |
+| [edge-llm-runtime](https://github.com/xdltek/edge-llm-runtime) | Embedded LLM runtime |
 
 ---
 
@@ -165,13 +187,14 @@ Distributed inference and high-performance multi-card systems.
 - Pipeline Parallelism
 - Dynamic Workload Distribution
 
-## Deployment Targets
+## Multi-GPU Projects
 
-- RTX Series
-- Jetson Platforms
-- Embedded GPUs
-- DSP Accelerators
-- AI Edge Devices
+| Repository | Description |
+|---|---|
+| [multi-gpu-runtime](https://github.com/xdltek/multi-gpu-runtime) | Multi-card inference runtime |
+| [distributed-engine](https://github.com/xdltek/distributed-engine) | Distributed scheduling |
+| [gpu-cluster-sdk](https://github.com/xdltek/gpu-cluster-sdk) | GPU cluster deployment |
+| [tensor-parallel-demo](https://github.com/xdltek/tensor-parallel-demo) | Tensor parallel examples |
 
 ---
 
@@ -179,13 +202,15 @@ Distributed inference and high-performance multi-card systems.
 
 AI optimization and deployment toolchain.
 
+## Toolchain
+
 | Tool | Description |
 |---|---|
-| onnx_model_tool | ONNX optimization toolkit |
-| quant_toolkit | INT8 quantization |
-| model_converter | Model conversion |
-| benchmark_runner | Performance evaluation |
-| tensor_optimizer | Tensor acceleration |
+| [onnx_model_tool](https://github.com/xdltek/onnx_model_tool) | ONNX optimization toolkit |
+| [quant_toolkit](https://github.com/xdltek/quant_toolkit) | INT8 quantization |
+| [model_converter](https://github.com/xdltek/model_converter) | Model conversion |
+| [tensor-profiler](https://github.com/xdltek/tensor-profiler) | Tensor profiling |
+| [benchmark_runner](https://github.com/xdltek/benchmark_runner) | Performance evaluation |
 
 ---
 
@@ -206,7 +231,7 @@ AI optimization and deployment toolchain.
 CUDA        : 12.x
 TensorRT    : Latest
 OpenRT      : Runtime SDK
-System       : Ubuntu 22.04
+System      : Ubuntu 22.04
 ```
 
 ---
