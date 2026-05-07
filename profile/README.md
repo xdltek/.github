@@ -266,14 +266,30 @@ We welcome collaboration on:
 
 ---
 
-# 📈 GitHub Stats
+# 🚀 Featured Projects
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=xdltek&show_icons=true&theme=tokyonight" />
+
+<a href="https://github.com/xdltek/rpp_r8_sdk">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=xdltek&repo=rpp_r8_sdk&theme=tokyonight" />
+</a>
+
+<a href="https://github.com/xdltek/high-end-dsp-rpp-cuda">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=xdltek&repo=high-end-dsp-rpp-cuda&theme=tokyonight" />
+</a>
+
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=xdltek&theme=tokyonight"/>
+
+<a href="https://github.com/xdltek/YOLOv8">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=xdltek&repo=YOLOv8&theme=tokyonight" />
+</a>
+
+<a href="https://github.com/xdltek/llama.cpp">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=xdltek&repo=llama.cpp&theme=tokyonight" />
+</a>
+
 </p>
 
 ---
