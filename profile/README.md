@@ -91,8 +91,6 @@ Production-ready AI inference SDK systems.
 | Repository | Description |
 |---|---|
 | [rpp_r8_sdk](https://github.com/xdltek/rpp_r8_sdk) | Core inference SDK |
-| [sdk-deployment-demo](https://github.com/xdltek/sdk-deployment-demo) | SDK deployment examples |
-| [edge-sdk-runtime](https://github.com/xdltek/edge-sdk-runtime) | Embedded AI runtime |
 
 ---
 
@@ -113,10 +111,7 @@ GPU acceleration and CUDA optimization framework.
 
 | Repository | Description |
 |---|---|
-| [high-end-dsp-rpp-cuda](https://github.com/xdltek/high-end-dsp-rpp-cuda) | CUDA acceleration framework |
-| [cuda-kernel-lab](https://github.com/xdltek/cuda-kernel-lab) | CUDA kernel examples |
-| [tensor-memory-opt](https://github.com/xdltek/tensor-memory-opt) | Tensor optimization |
-| [cuda-runtime-demo](https://github.com/xdltek/cuda-runtime-demo) | CUDA runtime samples |
+| [high-end-dsp-rpp-cuda](https://github.com/xdltek/high-end-dsp-rpp-cuda) | CUDA kernel examples |
 
 ---
 
@@ -144,9 +139,12 @@ AI runtime deployment and inference applications.
 
 | Sample | Description |
 |---|---|
-| [yolov8-openrt](https://github.com/xdltek/yolov8-openrt) | YOLOv8 deployment sample |
-| [resnet-openrt](https://github.com/xdltek/resnet-openrt) | ResNet inference sample |
-| [edge-runtime-demo](https://github.com/xdltek/edge-runtime-demo) | Edge AI runtime example |
+| [yolov8-openrt](https://github.com/xdltek/YOLOv8) | YOLOv8 deployment sample |
+| [yolov5-openrt](https://github.com/xdltek/YOLOv5) | YOLOv5 deployment sample |
+| [resnet50-openrt](https://github.com/xdltek/ResNet50) | ResNet50 deployment sample |
+| [yolov5-python-openrt](https://github.com/xdltek/YOLOv5_Python) | YOLOv5 deployment sample |
+| [resnet50-python-openrt](https://github.com/xdltek/ResNet50_Python) | ResNet50 deployment sample |
+| [unet-openrt](https://github.com/xdltek/unet) | unet deployment sample |
 | [openrt-benchmark](https://github.com/xdltek/openrt-benchmark) | OpenRT benchmark suite |
 
 ---
@@ -168,9 +166,6 @@ Lightweight and high-performance LLM inference runtime.
 | Project | Description |
 |---|---|
 | [llama.cpp](https://github.com/xdltek/llama.cpp) | Lightweight LLM inference runtime |
-| [llm-runtime-demo](https://github.com/xdltek/llm-runtime-demo) | LLM deployment example |
-| [gguf-tools](https://github.com/xdltek/gguf-tools) | GGUF model utilities |
-| [edge-llm-runtime](https://github.com/xdltek/edge-llm-runtime) | Embedded LLM runtime |
 
 ---
 
@@ -191,10 +186,8 @@ Distributed inference and high-performance multi-card systems.
 
 | Repository | Description |
 |---|---|
-| [multi-gpu-runtime](https://github.com/xdltek/multi-gpu-runtime) | Multi-card inference runtime |
-| [distributed-engine](https://github.com/xdltek/distributed-engine) | Distributed scheduling |
-| [gpu-cluster-sdk](https://github.com/xdltek/gpu-cluster-sdk) | GPU cluster deployment |
-| [tensor-parallel-demo](https://github.com/xdltek/tensor-parallel-demo) | Tensor parallel examples |
+| [multi-gpu-runtime](https://github.com/xdltek/multi_card_classification) | Multi-card inference runtime |
+
 
 ---
 
@@ -207,7 +200,7 @@ AI optimization and deployment toolchain.
 | Tool | Description |
 |---|---|
 | [onnx_model_tool](https://github.com/xdltek/onnx_model_tool) | ONNX optimization toolkit |
-| [quant_toolkit](https://github.com/xdltek/quant_toolkit) | INT8 quantization |
+| [ae-smi-tool](https://github.com/xdltek/ae-smi-tool) | AE SMI Monitor |
 | [model_converter](https://github.com/xdltek/model_converter) | Model conversion |
 | [tensor-profiler](https://github.com/xdltek/tensor-profiler) | Tensor profiling |
 | [benchmark_runner](https://github.com/xdltek/benchmark_runner) | Performance evaluation |
@@ -220,18 +213,17 @@ AI optimization and deployment toolchain.
 
 | Model | Device | Precision | FPS |
 |---|---|---|---|
-| YOLOv8 | RTX4090 | FP16 | 850 FPS |
-| YOLOv5 | Orin NX | INT8 | 210 FPS |
-| ResNet50 | DSP | INT8 | 1200 FPS |
-| LLM Runtime | RTX6000 | FP16 | 145 tokens/s |
+| YOLOv8 | XXX | FP16 | XXX FPS |
+| YOLOv5 | XXX | INT8 | XXX FPS |
+| ResNet50 | XXX | INT8 | XXX FPS |
+| LLM Runtime | XXX | FP16 | XXX tokens/s |
 
 ## Test Environment
 
 ```text
-CUDA        : 12.x
 TensorRT    : Latest
 OpenRT      : Runtime SDK
-System      : Ubuntu 22.04
+System      : Ubuntu 20.04
 ```
 
 ---
