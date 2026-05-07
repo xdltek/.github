@@ -1,38 +1,41 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/banner.png" width="900"/>
+  <img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/banner.png" width="1000"/>
 </p>
 
 <h1 align="center">🚀 XDLTEK</h1>
 
 <p align="center">
-<b>AI Inference · Edge Computing · SDK Systems</b>
+<b>AI Inference Infrastructure · Edge AI · CUDA Acceleration · SDK Systems</b>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/C++-Core-blue">
-  <img src="https://img.shields.io/badge/Python-AI-blue">
-  <img src="https://img.shields.io/badge/ONNX-Optimization-green">
-  <img src="https://img.shields.io/badge/Edge-Deployment-orange">
   <img src="https://img.shields.io/badge/CUDA-Acceleration-success">
+  <img src="https://img.shields.io/badge/ONNX-Optimization-green">
+  <img src="https://img.shields.io/badge/TensorRT-Inference-orange">
+  <img src="https://img.shields.io/badge/Edge-AI-red">
 </p>
 
 ---
 
 # 🧠 About XDLTEK
 
-XDLTEK builds high-performance AI inference systems for real-world deployment.
+XDLTEK develops high-performance AI inference infrastructure for production deployment.
 
-We focus on the complete AI deployment pipeline:
+We focus on:
 
-> Model → Optimization → Acceleration → Deployment → SDK
+- 🚀 AI Inference SDKs
+- ⚡ CUDA Acceleration
+- 🧠 ONNX Optimization
+- 🔗 Multi-GPU Systems
+- 📦 Edge AI Deployment
+- 🛠 Embedded AI Runtime
 
-Our technologies target:
+Our deployment pipeline:
 
-- Edge AI
-- GPU Acceleration
-- DSP Inference
-- Multi-GPU Systems
-- Production AI SDKs
+```text
+Model → Optimization → Acceleration → Deployment → SDK
+```
 
 ---
 
@@ -41,65 +44,87 @@ Our technologies target:
 | Module | Description |
 |---|---|
 | 🚀 [SDK Deployment](#-sdk-deployment) | SDK installation and deployment |
-| ⚡ [CUDA Programming](#-cuda-programming) | CUDA acceleration and optimization |
-| 🧠 [OpenRT Applications](#-openrt-applications) | OpenRT inference applications |
+| ⚡ [CUDA Programming](#-cuda-programming) | CUDA kernels and GPU optimization |
+| 🧠 [OpenRT Applications](#-openrt-applications) | AI runtime and inference applications |
 | 🔗 [Multi-GPU Systems](#-multi-gpu-systems) | Distributed and multi-card deployment |
-| 🛠 [Tools](#-tools) | Model conversion and utilities |
-| 📊 [Benchmark](#-benchmark) | Performance testing and evaluation |
+| 🛠 [Tools](#-tools) | Conversion and optimization tools |
+| 📊 [Benchmark](#-benchmark) | Performance evaluation |
 
 ---
 
-# 🧭 Architecture
+# 🧭 System Architecture
 
 ```text
-Model (YOLO / ResNet / LLM)
-        ↓
-Optimization (ONNX / Quantization)
-        ↓
-Acceleration (CUDA / DSP / Edge)
-        ↓
-Deployment (SDK Systems)
+AI Models
+(YOLO / ResNet / LLM)
+          ↓
+ONNX Optimization
+(Quantization / Fusion)
+          ↓
+Acceleration Layer
+(CUDA / DSP / TensorRT)
+          ↓
+Deployment Runtime
+(OpenRT / SDK Systems)
+          ↓
+Edge AI Infrastructure
 ```
 
 ---
 
 # 🚀 SDK Deployment
 
-High-performance SDK systems for AI inference deployment.
+Production-ready AI inference SDK systems.
 
 ## Features
 
-- ONNX Runtime Integration
-- Tensor Optimization
-- Embedded Deployment
-- Production SDK Packaging
-- Cross-platform Support
+- High-performance inference runtime
+- ONNX deployment support
+- Tensor optimization pipeline
+- Cross-platform SDK packaging
+- Embedded deployment
+- Production AI infrastructure
 
-## Related Projects
+## Core SDK
 
 ### 🚀 [rpp_r8_sdk](https://github.com/xdltek/rpp_r8_sdk)
 
 High-performance inference SDK for RPP accelerators.
 
+### Features
+
+- Tensor acceleration
+- Runtime optimization
+- Embedded deployment
+- Edge AI support
+
 ---
 
 # ⚡ CUDA Programming
 
-CUDA acceleration and GPU optimization framework.
+GPU acceleration and CUDA optimization framework.
 
-## Topics
+## CUDA Stack
 
 - CUDA Kernels
 - Tensor Memory Optimization
-- CUDA Graph
 - FP16 / INT8 Acceleration
-- GPU Pipeline Optimization
+- CUDA Graph Pipeline
+- GPU Scheduling
+- Stream Parallelism
 
-## Related Projects
+## CUDA Framework
 
 ### ⚡ [high-end-dsp-rpp-cuda](https://github.com/xdltek/high-end-dsp-rpp-cuda)
 
 DSP + CUDA accelerated inference framework.
+
+### Capabilities
+
+- CUDA acceleration
+- Tensor optimization
+- Edge GPU deployment
+- Real-time inference
 
 ---
 
@@ -109,24 +134,27 @@ AI runtime deployment and inference applications.
 
 ## Applications
 
-- YOLO Deployment
-- ResNet Inference
-- LLM Runtime
-- Edge AI Runtime
-- Tensor Acceleration
+- YOLO deployment
+- ResNet inference
+- Edge AI runtime
+- Tensor acceleration
+- Real-time detection
+- LLM inference
 
 ## Supported Models
 
-- YOLOv8
-- YOLOv5
-- ResNet50
-- Llama.cpp
+| Model | Type |
+|---|---|
+| YOLOv8 | Object Detection |
+| YOLOv5 | Real-time Detection |
+| ResNet50 | Image Classification |
+| llama.cpp | LLM Runtime |
 
 ---
 
 # 🔗 Multi-GPU Systems
 
-Distributed inference and multi-card acceleration systems.
+Distributed inference and high-performance multi-card systems.
 
 ## Features
 
@@ -135,19 +163,21 @@ Distributed inference and multi-card acceleration systems.
 - Distributed Inference
 - GPU Communication
 - Pipeline Parallelism
+- Dynamic Workload Distribution
 
 ## Deployment Targets
 
 - RTX Series
-- Jetson Devices
+- Jetson Platforms
 - Embedded GPUs
 - DSP Accelerators
+- AI Edge Devices
 
 ---
 
 # 🛠 Tools
 
-Model conversion and optimization toolchains.
+AI optimization and deployment toolchain.
 
 | Tool | Description |
 |---|---|
@@ -155,25 +185,29 @@ Model conversion and optimization toolchains.
 | quant_toolkit | INT8 quantization |
 | model_converter | Model conversion |
 | benchmark_runner | Performance evaluation |
+| tensor_optimizer | Tensor acceleration |
 
 ---
 
 # 📊 Benchmark
 
-## Performance Results
+## Inference Performance
 
 | Model | Device | Precision | FPS |
 |---|---|---|---|
 | YOLOv8 | RTX4090 | FP16 | 850 FPS |
 | YOLOv5 | Orin NX | INT8 | 210 FPS |
 | ResNet50 | DSP | INT8 | 1200 FPS |
+| LLM Runtime | RTX6000 | FP16 | 145 tokens/s |
 
 ## Test Environment
 
-- CUDA 12.x
-- TensorRT
-- OpenRT Runtime
-- Ubuntu 22.04
+```text
+CUDA        : 12.x
+TensorRT    : Latest
+OpenRT      : Runtime SDK
+System       : Ubuntu 22.04
+```
 
 ---
 
@@ -190,39 +224,22 @@ Model conversion and optimization toolchains.
 
 ---
 
-# 🤖 Models & AI Systems
+# ⚙️ Core Capabilities
 
-## Detection Models
-
-- 🧠 YOLOv8
-- 🧠 YOLOv5
-
-## Classification Models
-
-- 📦 ResNet50
-
-## LLM Runtime
-
-- 🧩 llama.cpp
-
----
-
-# ⚙️ Systems & Capabilities
-
-## Core Capabilities
+## AI Infrastructure
 
 - 🚀 High-performance inference
 - ⚡ CUDA acceleration
-- 🧠 ONNX optimization
-- 🔧 Production SDK systems
-- 📦 Edge deployment
-- 🔗 Multi-GPU support
+- 🧠 Tensor optimization
+- 🔗 Distributed inference
+- 📦 Edge AI deployment
+- 🛠 SDK infrastructure
 
-## Deployment Targets
+## Deployment Platforms
 
 - Linux
-- Embedded Devices
-- Edge AI Systems
+- Embedded Systems
+- AI Edge Devices
 - GPU Servers
 - DSP Platforms
 
@@ -239,6 +256,7 @@ Model conversion and optimization toolchains.
   <img src="https://img.shields.io/badge/TensorRT-Inference-orange">
   <img src="https://img.shields.io/badge/ONNX-Runtime-blue">
   <img src="https://img.shields.io/badge/OpenCV-Vision-red">
+  <img src="https://img.shields.io/badge/Linux-Embedded-black">
 </p>
 
 ---
@@ -247,10 +265,11 @@ Model conversion and optimization toolchains.
 
 - Industrial Vision
 - Smart Manufacturing
-- Edge AI Devices
+- Embedded AI
 - Real-time Detection
-- Embedded AI Systems
-- AI Inference Infrastructure
+- Edge AI Infrastructure
+- Intelligent Devices
+- AI Acceleration Systems
 
 ---
 
@@ -261,36 +280,9 @@ We welcome collaboration on:
 - AI inference optimization
 - CUDA acceleration
 - Edge deployment systems
-- Distributed inference
+- Distributed AI runtime
 - High-performance computing
-
----
-
-# 🚀 Featured Projects
-
-<p align="center">
-
-<a href="https://github.com/xdltek/rpp_r8_sdk">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=xdltek&repo=rpp_r8_sdk&theme=tokyonight" />
-</a>
-
-<a href="https://github.com/xdltek/high-end-dsp-rpp-cuda">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=xdltek&repo=high-end-dsp-rpp-cuda&theme=tokyonight" />
-</a>
-
-</p>
-
-<p align="center">
-
-<a href="https://github.com/xdltek/YOLOv8">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=xdltek&repo=YOLOv8&theme=tokyonight" />
-</a>
-
-<a href="https://github.com/xdltek/llama.cpp">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=xdltek&repo=llama.cpp&theme=tokyonight" />
-</a>
-
-</p>
+- Production AI infrastructure
 
 ---
 
@@ -302,5 +294,5 @@ We welcome collaboration on:
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f3460,100:1e6091&height=120&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:1e3a8a&height=140&section=footer"/>
 </p>
