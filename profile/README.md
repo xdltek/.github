@@ -90,7 +90,7 @@ Production-ready AI inference SDK systems.
 
 | Repository | Description |
 |---|---|
-| [rpp_r8_sdk](https://github.com/xdltek/rpp_r8_sdk) | Core inference SDK |
+| [rpp_r8_sdk](https://github.com/xdltek/xdl-sdk) | Core inference SDK |
 
 ---
 
@@ -232,7 +232,7 @@ System      : Ubuntu 20.04
 
 | Project | Type | Description |
 |---|---|---|
-| [rpp_r8_sdk](https://github.com/xdltek/rpp_r8_sdk) | SDK | High-performance inference SDK |
+| [rpp_r8_sdk](https://github.com/xdltek/xdl-sdk) | SDK | High-performance inference SDK |
 | [high-end-dsp-rpp-cuda](https://github.com/xdltek/high-end-dsp-rpp-cuda) | Framework | CUDA acceleration framework |
 | [YOLOv8](https://github.com/xdltek/YOLOv8) | Model | Real-time object detection |
 | [YOLOv5](https://github.com/xdltek/YOLOv5) | Model | Lightweight detection |
