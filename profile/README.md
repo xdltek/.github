@@ -1,315 +1,124 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/banner.png" width="1000"/>
+  <img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/banner.png" alt="XDLTEK — AI inference, edge computing, and SDK systems" width="100%">
 </p>
 
-<h1 align="center">🚀 XDLTEK</h1>
+<h1 align="center">AI compute, from silicon to complete systems.</h1>
 
 <p align="center">
-<b>AI Inference Infrastructure · CUDA Acceleration · Edge AI · SDK Systems</b>
+  XDLTEK delivers a vertically integrated AI inference platform: RPP processors, AzureBlade accelerator cards,<br>
+  edge AI boxes, servers, and the software to deploy real workloads.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/C++-Core-blue">
-  <img src="https://img.shields.io/badge/CUDA-Acceleration-success">
-  <img src="https://img.shields.io/badge/ONNX-Optimization-green">
-  <img src="https://img.shields.io/badge/TensorRT-Inference-orange">
-  <img src="https://img.shields.io/badge/Edge-AI-red">
+  <a href="https://github.com/xdltek/xdl-sdk"><strong>Get the XDL SDK</strong></a>
+  ·
+  <a href="#choose-your-hardware"><strong>Choose hardware</strong></a>
+  ·
+  <a href="#build-with-xdltek"><strong>Explore demos</strong></a>
 </p>
 
 ---
 
-# 🧠 About XDLTEK
+## One platform. Four ways to deploy.
 
-XDLTEK develops high-performance AI inference infrastructure for production deployment.
+| Silicon | Accelerator cards | Edge AI boxes | AI server |
+|:---:|:---:|:---:|:---:|
+| **AE7100E · AE7103** | **M.2 · HHHL · FHFL** | **Arm · Intel · FPGA hosts** | **Up to 4× MC2A cards** |
+| Purpose-built RPP processors | Scale from compact edge devices to high-throughput systems | Integrated, deployment-ready appliances | Dense multi-card inference in AS1000 |
 
-We focus on:
+XDLTEK gives customers one path from an ONNX model to deployed inference: develop with the XDL SDK, validate with production-oriented demos, then select the form factor that fits the site.
 
-- 🚀 AI Inference SDKs
-- ⚡ CUDA Acceleration
-- 🧠 ONNX Optimization
-- 🔗 Multi-GPU Systems
-- 📦 Edge AI Deployment
-- 🛠 Embedded AI Runtime
+## Choose your hardware
 
-Our deployment pipeline:
+### RPP processors
 
-```text
-Model → Optimization → Acceleration → Deployment → SDK
-```
-
----
-
-# 📚 Documentation Hub
-
-| Module | Description |
+| Product | Designed for |
 |---|---|
-| 🚀 [SDK Deployment](#-sdk-deployment) | SDK installation and deployment |
-| ⚡ [CUDA Programming](#-cuda-programming) | CUDA kernels and GPU optimization |
-| 🧠 [OpenRT Applications](#-openrt-applications) | AI runtime and inference applications |
-| 🤖 [LLM Runtime Systems](#-llm-runtime-systems) | Lightweight LLM runtime infrastructure |
-| 🔗 [Multi-GPU Systems](#-multi-gpu-systems) | Distributed and multi-card deployment |
-| 🛠 [Tools](#-tools) | Conversion and optimization tools |
-| 📊 [Benchmark](#-benchmark) | Performance evaluation |
+| **AE7100E** | High-performance AI inference across XDLTEK accelerator products |
+| **AE7103** | Compact, efficient inference deployments |
 
----
+### AzureBlade accelerator cards
 
-# 🧭 System Architecture
-
-```text
-AI Models
-(YOLO / ResNet / LLM)
-          ↓
-ONNX Optimization
-(Quantization / Fusion)
-          ↓
-Acceleration Layer
-(CUDA / DSP / TensorRT)
-          ↓
-Deployment Runtime
-(OpenRT / SDK Systems)
-          ↓
-Edge AI Infrastructure
-```
-
----
-
-# 🚀 SDK Deployment
-
-Production-ready AI inference SDK systems.
-
-## Features
-
-- High-performance inference runtime
-- ONNX deployment support
-- Tensor optimization pipeline
-- Cross-platform SDK packaging
-- Embedded deployment
-- Production AI infrastructure
-
-## SDK Repositories
-
-| Repository | Description |
-|---|---|
-| [rpp_r8_sdk](https://github.com/xdltek/xdl-sdk) | Core inference SDK |
-
----
-
-# ⚡ CUDA Programming
-
-GPU acceleration and CUDA optimization framework.
-
-## CUDA Stack
-
-- CUDA Kernels
-- Tensor Memory Optimization
-- FP16 / INT8 Acceleration
-- CUDA Graph Pipeline
-- GPU Scheduling
-- Stream Parallelism
-
-## CUDA Projects
-
-| Repository | Description |
-|---|---|
-| [high-end-dsp-rpp-cuda](https://github.com/xdltek/high-end-dsp-rpp-cuda) | CUDA kernel examples |
-
----
-
-# 🧠 OpenRT Applications
-
-AI runtime deployment and inference applications.
-
-## Applications
-
-- YOLO deployment
-- ResNet inference
-- Edge AI runtime
-- Tensor acceleration
-- Real-time detection
-
-## Supported Models
-
-| Model | Type |
-|---|---|
-| YOLOv8 | Object Detection |
-| YOLOv5 | Real-time Detection |
-| ResNet50 | Image Classification |
-
-## OpenRT Samples
-
-| Sample | Description |
-|---|---|
-| [yolov8-openrt](https://github.com/xdltek/YOLOv8) | YOLOv8 deployment sample |
-| [yolov5-openrt](https://github.com/xdltek/YOLOv5) | YOLOv5 deployment sample |
-| [resnet50-openrt](https://github.com/xdltek/ResNet50) | ResNet50 deployment sample |
-| [yolov5-python-openrt](https://github.com/xdltek/YOLOv5_Python) | YOLOv5 deployment sample |
-| [resnet50-python-openrt](https://github.com/xdltek/ResNet50_Python) | ResNet50 deployment sample |
-| [unet-openrt](https://github.com/xdltek/unet) | unet deployment sample |
-| [openrt-benchmark](https://github.com/xdltek/openrt-benchmark) | OpenRT benchmark suite |
-
----
-
-# 🤖 LLM Runtime Systems
-
-Lightweight and high-performance LLM inference runtime.
-
-## Features
-
-- Lightweight LLM deployment
-- CPU / GPU hybrid inference
-- Quantized model support
-- Edge-side LLM runtime
-- Production inference pipeline
-
-## Runtime Projects
-
-| Project | Description |
-|---|---|
-| [llama.cpp](https://github.com/xdltek/llama.cpp) | Lightweight LLM inference runtime |
-
----
-
-# 🔗 Multi-GPU Systems
-
-Distributed inference and high-performance multi-card systems.
-
-## Features
-
-- Multi-GPU Scheduling
-- Tensor Parallelism
-- Distributed Inference
-- GPU Communication
-- Pipeline Parallelism
-- Dynamic Workload Distribution
-
-## Multi-GPU Projects
-
-| Repository | Description |
-|---|---|
-| [multi-gpu-runtime](https://github.com/xdltek/multi_card_classification) | Multi-card inference runtime |
-
-
----
-
-# 🛠 Tools
-
-AI optimization and deployment toolchain.
-
-## Toolchain
-
-| Tool | Description |
-|---|---|
-| [onnx_model_tool](https://github.com/xdltek/onnx_model_tool) | ONNX optimization toolkit |
-| [ae-smi-tool](https://github.com/xdltek/ae-smi-tool) | AE SMI Monitor |
-| [model_converter](https://github.com/xdltek/model_converter) | Model conversion |
-| [tensor-profiler](https://github.com/xdltek/tensor-profiler) | Tensor profiling |
-| [benchmark_runner](https://github.com/xdltek/benchmark_runner) | Performance evaluation |
-
----
-
-# 📊 Benchmark
-
-## Inference Performance
-
-| Model | Device | Precision | FPS |
-|---|---|---|---|
-| YOLOv8 | XXX | FP16 | XXX FPS |
-| YOLOv5 | XXX | INT8 | XXX FPS |
-| ResNet50 | XXX | INT8 | XXX FPS |
-| LLM Runtime | XXX | FP16 | XXX tokens/s |
-
-## Test Environment
-
-```text
-TensorRT    : Latest
-OpenRT      : Runtime SDK
-System      : Ubuntu 20.04
-```
-
----
-
-# 🧩 Project Matrix
-
-| Project | Type | Description |
+| Product family | Form factor | Best fit |
 |---|---|---|
-| [rpp_r8_sdk](https://github.com/xdltek/xdl-sdk) | SDK | High-performance inference SDK |
-| [high-end-dsp-rpp-cuda](https://github.com/xdltek/high-end-dsp-rpp-cuda) | Framework | CUDA acceleration framework |
-| [YOLOv8](https://github.com/xdltek/YOLOv8) | Model | Real-time object detection |
-| [YOLOv5](https://github.com/xdltek/YOLOv5) | Model | Lightweight detection |
-| [ResNet50](https://github.com/xdltek/ResNet50) | Model | Image classification |
-| [llama.cpp](https://github.com/xdltek/llama.cpp) | Runtime | Lightweight LLM inference |
+| **KA08 Series** | M.2 | Space-constrained edge devices and embedded systems |
+| **PB08 Series** | HHHL PCIe | Compact workstations and edge servers |
+| **MC2A Series** | FHFL PCIe, dual-slot | High-throughput servers and multi-card inference |
 
----
+### Integrated systems
 
-# ⚙️ Core Capabilities
+| System | Host platform | Integrated XDLTEK acceleration |
+|---|---|---|
+| **AzureStation AS1000** | AI server | Up to **4× MC2A** dual-slot cards |
+| **AzureEdge SR8** | Rockchip RK3588 AI box | **1× KA08** M.2 card |
+| **AzureEdge SN5** | Intel N50 AI box | **1× KA08** M.2 card |
+| **AzureEdge SI7** | Intel Core i7 AI box | **1× PB08** HHHL PCIe card |
+| **RPP-BlackBox** | AMD/Xilinx XCZU11EG platform | Up to **3× KA08** accelerator cards |
 
-## AI Infrastructure
+> Product configurations can vary by deployment. Confirm interfaces, environmental specifications, and the final card configuration with XDLTEK before ordering.
 
-- 🚀 High-performance inference
-- ⚡ CUDA acceleration
-- 🧠 Tensor optimization
-- 🔗 Distributed inference
-- 📦 Edge AI deployment
-- 🛠 SDK infrastructure
+## Start with the XDL SDK
 
-## Deployment Platforms
-
-- Linux
-- Embedded Systems
-- AI Edge Devices
-- GPU Servers
-- DSP Platforms
-
----
-
-# 🧱 Tech Stack
+The **XDL SDK** is the primary entry point for deploying models on XDLTEK hardware. Use it to set up the runtime and toolchain before moving to the workload examples below.
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=cpp,python,linux,pytorch,opencv,docker" />
+  <a href="https://github.com/xdltek/xdl-sdk"><strong>Open xdltek/xdl-sdk →</strong></a>
 </p>
 
+## Build with XDLTEK
+
+Start from a working application that matches your workload. C++ and Python coverage will continue to expand.
+
+<details open>
+<summary><strong>OpenRT · Computer vision inference</strong></summary>
+<br>
+
+| Workload | C++ | Python |
+|---|---|---|
+| YOLOv8 object detection | [YOLOv8](https://github.com/xdltek/YOLOv8) | Python demo planned |
+| YOLOv5 object detection | [YOLOv5](https://github.com/xdltek/YOLOv5) | [YOLOv5_Python](https://github.com/xdltek/YOLOv5_Python) |
+| ResNet50 classification | [ResNet50](https://github.com/xdltek/ResNet50) | [ResNet50_Python](https://github.com/xdltek/ResNet50_Python) |
+
+</details>
+
+<details>
+<summary><strong>CUDA-style programming · Kernel and optimization samples</strong></summary>
+<br>
+
+- [CUDA Samples](https://github.com/xdltek/CUDA_Samples) — programming examples for the XDLTEK compute platform
+- [High-end DSP RPP CUDA](https://github.com/xdltek/high-end-dsp-rpp-cuda) — RPP CUDA-style kernels and optimization examples
+
+</details>
+
+<details>
+<summary><strong>Complete applications · Video analytics and edge LLMs</strong></summary>
+<br>
+
+- [OpenStream](https://github.com/xdltek/openstream) — hardware video decode, inference, and SORT tracking in one pipeline
+- [llama.cpp](https://github.com/xdltek/llama.cpp) — edge large-language-model inference for the Qwen model family
+
+</details>
+
+<details>
+<summary><strong>Multi-card inference · Scale on MC2A</strong></summary>
+<br>
+
+- [Multi-card YOLOv5](https://github.com/xdltek/multi_card_YOLOv5)
+- [Multi-card classification](https://github.com/xdltek/multi_card_classification)
+- [Multi-card U-Net](https://github.com/xdltek/multi_card_unet)
+
+</details>
+
+## Models, benchmarks, and tools
+
+| Resource | What it provides |
+|---|---|
+| [RPP Model Zoo](https://github.com/xdltek/rpp-model-zoo) | Model references and benchmark data; automated scripts are planned |
+| [ONNX Verify Tools](https://github.com/xdltek/onnx-verify-tools) | Dynamic-to-static shape repair, per-node MACs and memory analysis, parameter counts, and unsupported-operator diagnosis |
+
+---
+
 <p align="center">
-  <img src="https://img.shields.io/badge/CUDA-GPU-success">
-  <img src="https://img.shields.io/badge/TensorRT-Inference-orange">
-  <img src="https://img.shields.io/badge/ONNX-Runtime-blue">
-  <img src="https://img.shields.io/badge/OpenCV-Vision-red">
-  <img src="https://img.shields.io/badge/Linux-Embedded-black">
-</p>
-
----
-
-# 🌍 Applications
-
-- Industrial Vision
-- Smart Manufacturing
-- Embedded AI
-- Real-time Detection
-- Edge AI Infrastructure
-- Intelligent Devices
-- AI Acceleration Systems
-
----
-
-# 🤝 Collaboration
-
-We welcome collaboration on:
-
-- AI inference optimization
-- CUDA acceleration
-- Edge deployment systems
-- Distributed AI runtime
-- High-performance computing
-- Production AI infrastructure
-
----
-
-# 🌐 Contact
-
-- 🌍 Website: http://xdltek.cn
-- 📧 Email: sales@xdltek.cn
-
----
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:1e3a8a&height=140&section=footer"/>
+  <strong>Ready to evaluate XDLTEK?</strong><br>
+  Start with the <a href="https://github.com/xdltek/xdl-sdk">XDL SDK</a>, select a <a href="#choose-your-hardware">deployment platform</a>, and use the closest demo as your application baseline.
 </p>
