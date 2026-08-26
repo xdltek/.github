@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-labelledby="title desc">
   <title id="title">AzureBlade accelerator card families</title><desc id="desc">KA08 M.2, PB08 HHHL PCIe, and MC2A FHFL PCIe</desc>
-  <defs><linearGradient id="bg" x1="0" x2="1"><stop stop-color="#020b1f"/><stop offset=".5" stop-color="#061b3b"/><stop offset="1" stop-color="#020b1f"/></linearGradient><linearGradient id="line" x1="0" x2="1"><stop stop-color="#087cf0"/><stop offset=".5" stop-color="#00c6c2"/><stop offset="1" stop-color="#7952df"/></linearGradient></defs>
+  <defs><linearGradient id="bg" x1="0" x2="1"><stop stop-color="#020b1f"/><stop offset=".5" stop-color="#061b3b"/><stop offset="1" stop-color="#020b1f"/></linearGradient><linearGradient id="line" x1="0" x2="1"><stop stop-color="#087cf0"/><stop offset=".5" stop-color="#00a7b5"/><stop offset="1" stop-color="#4b4fc4"/></linearGradient></defs>
   <rect width="1200" height="190" rx="18" fill="url(#bg)"/><rect x="0" y="0" width="1200" height="5" rx="2.5" fill="url(#line)"/>
   <path d="M400 28v134M800 28v134" stroke="#3e77aa" stroke-opacity=".35"/>
   <g font-family="Noto Sans, Arial, sans-serif" text-anchor="middle">
     <text x="200" y="62" fill="#55c7ff" font-size="16" font-weight="700" letter-spacing="2">M.2 ACCELERATOR</text><text x="200" y="105" fill="#fff" font-size="34" font-weight="700">KA08 Series</text><text x="200" y="139" fill="#d3e8f7" font-size="18">Compact edge · Embedded systems</text>
     <text x="600" y="62" fill="#54e4dc" font-size="16" font-weight="700" letter-spacing="2">HHHL PCIE CARD</text><text x="600" y="105" fill="#fff" font-size="34" font-weight="700">PB08 Series</text><text x="600" y="139" fill="#d3e8f7" font-size="18">Workstations · Edge servers</text>
-    <text x="1000" y="62" fill="#b99cff" font-size="16" font-weight="700" letter-spacing="2">FHFL PCIE · DUAL-SLOT</text><text x="1000" y="105" fill="#fff" font-size="34" font-weight="700">MC2A Series</text><text x="1000" y="139" fill="#d3e8f7" font-size="18">High-throughput · Multi-card inference</text>
+    <text x="1000" y="62" fill="#a9c7ff" font-size="16" font-weight="700" letter-spacing="2">FHFL PCIE · DUAL-SLOT</text><text x="1000" y="105" fill="#fff" font-size="34" font-weight="700">MC2A Series</text><text x="1000" y="139" fill="#d3e8f7" font-size="18">High-throughput · Multi-card inference</text>
   </g>
 </svg>
