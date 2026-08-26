@@ -17,23 +17,17 @@
 
 ---
 
-## Hardware portfolio
-
-<p align="center">
-  <strong>One architecture. Multiple form factors. From compact edge deployment to dense server inference.</strong>
+<p align="center" id="hardware-portfolio">
+  <img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/section-hardware.svg" alt="Hardware Portfolio — from silicon to systems" width="100%">
 </p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/product-portfolio.png" alt="XDLTEK AzureBlade KA08, PB08, and MC2A accelerator cards" width="100%">
 </p>
 
-<table>
-  <tr>
-    <td align="center" width="33%"><strong>KA08 Series</strong><br><sub>AzureBlade M.2</sub><br><br>Compact edge and embedded systems</td>
-    <td align="center" width="33%"><strong>PB08 Series</strong><br><sub>AzureBlade HHHL PCIe</sub><br><br>Workstations and edge servers</td>
-    <td align="center" width="33%"><strong>MC2A Series</strong><br><sub>AzureBlade FHFL PCIe · Dual-slot</sub><br><br>High-throughput and multi-card inference</td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/product-labels.svg" alt="KA08, PB08, and MC2A AzureBlade accelerator families" width="100%">
+</p>
 
 ### From chip to system
 
@@ -74,9 +68,7 @@ The **XDL SDK** is the primary entry point for deploying models on XDLTEK hardwa
 
 <br>
 
-## Application demos
-
-<p align="center">
+<p align="center" id="application-demos">
   <img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/section-demos.svg" alt="02 Application Demos" width="100%">
 </p>
 
@@ -119,8 +111,6 @@ Choose a working example by workload. C++ and Python coverage will continue to e
   <img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/section-model-zoo.svg" alt="03 Model Zoo and Benchmarks" width="100%">
 </p>
 
-### Evaluate model coverage
-
 The [**RPP Model Zoo**](https://github.com/xdltek/rpp-model-zoo) provides model references and benchmark data for evaluating workloads on the XDLTEK platform. Automated benchmark scripts are planned.
 
 <p align="center">
@@ -132,8 +122,6 @@ The [**RPP Model Zoo**](https://github.com/xdltek/rpp-model-zoo) provides model 
 <p align="center">
   <img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/section-tools.svg" alt="04 Deployment Tools" width="100%">
 </p>
-
-### Inspect models before deployment
 
 [**ONNX Verify Tools**](https://github.com/xdltek/onnx-verify-tools) helps teams prepare and diagnose ONNX models:
 
