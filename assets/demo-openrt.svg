@@ -1,7 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="110" viewBox="0 0 1200 110" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="90" viewBox="0 0 1200 90" role="img" aria-labelledby="title desc">
   <title id="title">OpenRT Computer Vision</title><desc id="desc">Object detection and image classification demos in C++ and Python</desc>
   <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#020b1f"/><stop offset=".55" stop-color="#073c56"/><stop offset="1" stop-color="#00a7b5"/></linearGradient><pattern id="p" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.2" fill="#8defff" fill-opacity=".2"/></pattern></defs>
-  <rect width="1200" height="110" rx="14" fill="url(#g)"/><rect width="1200" height="110" rx="14" fill="url(#p)"/>
+  <rect width="1200" height="90" rx="14" fill="url(#g)"/><rect width="1200" height="90" rx="14" fill="url(#p)"/>
+  <g transform="translate(0 -10)">
   <path d="M48 55c22-25 52-25 74 0-22 25-52 25-74 0z" fill="none" stroke="#8defff" stroke-width="4"/><circle cx="85" cy="55" r="11" fill="#087cf0" stroke="#fff" stroke-width="3"/>
   <text x="150" y="48" fill="#8defff" font-family="Noto Sans, Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="3">OPENRT</text><text x="150" y="82" fill="#fff" font-family="Noto Sans, Arial, sans-serif" font-size="30" font-weight="700">Computer Vision</text><text x="710" y="67" fill="#f0fbff" font-family="Noto Sans, Arial, sans-serif" font-size="19">Object Detection · Classification · C++ · Python</text>
+  </g>
 </svg>

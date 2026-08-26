@@ -60,7 +60,7 @@
   <img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/section-sdk.svg" alt="01 XDL SDK — Start here" width="100%">
 </p>
 
-The **XDL SDK** is the primary entry point for deploying models on XDLTEK hardware. Set up the runtime and toolchain here, then select a workload demo as your application baseline.
+<p align="center"><strong>Start here to install the runtime, configure the toolchain, and deploy your first model.</strong></p>
 
 <p align="center">
   <a href="https://github.com/xdltek/xdl-sdk"><img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/repo-xdl-sdk.svg" alt="Open XDL SDK repository" width="300"></a>
@@ -73,8 +73,7 @@ The **XDL SDK** is the primary entry point for deploying models on XDLTEK hardwa
 </p>
 
 <p align="center">
-  <strong>Choose a workload, then select an <code>OPEN ↗</code> button to launch its GitHub repository.</strong><br>
-  <sub>Buttons with the GitHub icon are clickable · Gray PLANNED labels are not yet available</sub>
+  <img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/repository-guide.svg" alt="Select a workload. OPEN launches GitHub; PLANNED means coming soon." width="100%">
 </p>
 
 <p align="center">
@@ -149,7 +148,7 @@ The **XDL SDK** is the primary entry point for deploying models on XDLTEK hardwa
   <img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/section-model-zoo.svg" alt="03 Model Zoo and Benchmarks" width="100%">
 </p>
 
-The [**RPP Model Zoo**](https://github.com/xdltek/rpp-model-zoo) provides model references and benchmark data for evaluating workloads on the XDLTEK platform. Automated benchmark scripts are planned.
+<p align="center"><strong>Evaluate model coverage and benchmark references before choosing a deployment target.</strong></p>
 
 <p align="center">
   <a href="https://github.com/xdltek/rpp-model-zoo"><img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/repo-model-zoo.svg" alt="Open RPP Model Zoo repository" width="300"></a>
@@ -161,11 +160,7 @@ The [**RPP Model Zoo**](https://github.com/xdltek/rpp-model-zoo) provides model 
   <img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/section-tools.svg" alt="04 Deployment Tools" width="100%">
 </p>
 
-[**ONNX Verify Tools**](https://github.com/xdltek/onnx-verify-tools) helps teams prepare and diagnose ONNX models:
-
-- Repair dynamic dimensions into deployment-ready static shapes
-- Print per-node MACs, activation and parameter memory, and parameter counts
-- Identify unsupported or abnormal operators when a model cannot run
+<p align="center"><strong>Prepare and diagnose ONNX models: repair static shapes, profile compute and memory, and identify unsupported operators.</strong></p>
 
 <p align="center">
   <a href="https://github.com/xdltek/onnx-verify-tools"><img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/repo-onnx-tools.svg" alt="Open ONNX Verify Tools repository" width="300"></a>

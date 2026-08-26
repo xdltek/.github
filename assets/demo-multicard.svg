@@ -1,7 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="110" viewBox="0 0 1200 110" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="90" viewBox="0 0 1200 90" role="img" aria-labelledby="title desc">
   <title id="title">Multi-card Inference</title><desc id="desc">Scale YOLOv5, classification, and U-Net workloads on MC2A</desc>
   <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#020b1f"/><stop offset=".55" stop-color="#172c62"/><stop offset="1" stop-color="#4b4fc4"/></linearGradient><pattern id="p" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M0 14h9l5-5h14" fill="none" stroke="#a9c7ff" stroke-opacity=".16"/></pattern></defs>
-  <rect width="1200" height="110" rx="14" fill="url(#g)"/><rect width="1200" height="110" rx="14" fill="url(#p)"/>
+  <rect width="1200" height="90" rx="14" fill="url(#g)"/><rect width="1200" height="90" rx="14" fill="url(#p)"/>
+  <g transform="translate(0 -10)">
   <rect x="43" y="24" width="62" height="38" rx="5" fill="none" stroke="#fff" stroke-width="4"/><rect x="57" y="43" width="62" height="38" rx="5" fill="#172c62" stroke="#a9c7ff" stroke-width="4"/><circle cx="105" cy="62" r="8" fill="#7f9dff"/>
   <text x="150" y="48" fill="#a9c7ff" font-family="Noto Sans, Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="3">MC2A SCALE-OUT</text><text x="150" y="82" fill="#fff" font-family="Noto Sans, Arial, sans-serif" font-size="30" font-weight="700">Multi-card Inference</text><text x="710" y="67" fill="#f2f6ff" font-family="Noto Sans, Arial, sans-serif" font-size="19">YOLOv5 · Classification · U-Net</text>
+  </g>
 </svg>

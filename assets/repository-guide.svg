@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="76" viewBox="0 0 1200 76" role="img" aria-labelledby="title desc">
+  <title id="title">Select a workload and open a repository</title><desc id="desc">OPEN buttons launch GitHub repositories; PLANNED means coming soon</desc>
+  <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#031A35"/><stop offset="1" stop-color="#062B59"/></linearGradient></defs>
+  <rect width="1200" height="76" rx="12" fill="url(#g)"/><rect x="1" y="1" width="1198" height="74" rx="11" fill="none" stroke="#087CF0" stroke-opacity=".65"/>
+  <circle cx="42" cy="38" r="18" fill="#087CF0"/><path d="M35 28l16 10-9 3-3 9z" fill="#fff"/>
+  <text x="78" y="33" fill="#7FCDFF" font-family="Noto Sans, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="2.5">SELECT A WORKLOAD</text>
+  <text x="78" y="56" fill="#fff" font-family="Noto Sans, Arial, sans-serif" font-size="18" font-weight="600">Choose a repository button to continue</text>
+  <circle cx="695" cy="38" r="7" fill="#087CF0"/><text x="713" y="44" fill="#fff" font-family="Noto Sans, Arial, sans-serif" font-size="18" font-weight="600">OPEN ↗  launches GitHub</text>
+  <circle cx="970" cy="38" r="7" fill="#6B7280"/><text x="988" y="44" fill="#DCE6F2" font-family="Noto Sans, Arial, sans-serif" font-size="18" font-weight="600">PLANNED  coming soon</text>
+</svg>
