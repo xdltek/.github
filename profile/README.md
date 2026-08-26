@@ -63,7 +63,7 @@
 The **XDL SDK** is the primary entry point for deploying models on XDLTEK hardware. Set up the runtime and toolchain here, then select a workload demo as your application baseline.
 
 <p align="center">
-  <a href="https://github.com/xdltek/xdl-sdk"><img src="https://img.shields.io/badge/XDL_SDK-OPEN_%E2%86%97-087CF0?style=for-the-badge&logo=github&logoColor=white&labelColor=031A35" alt="Open XDL SDK repository"></a>
+  <a href="https://github.com/xdltek/xdl-sdk"><img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/repo-xdl-sdk.svg" alt="Open XDL SDK repository" width="300"></a>
 </p>
 
 <br>
@@ -85,17 +85,17 @@ The **XDL SDK** is the primary entry point for deploying models on XDLTEK hardwa
   <img src="https://img.shields.io/badge/C%2B%2B_DEMOS-031A35?style=for-the-badge" alt="OpenRT C++ demos">
 </p>
 <p align="center">
-  <a href="https://github.com/xdltek/YOLOv8"><img src="https://img.shields.io/badge/YOLOv8-OPEN_%E2%86%97-087CF0?style=for-the-badge&logo=github&logoColor=white&labelColor=031A35" alt="Open YOLOv8 C++ repository"></a>
-  <a href="https://github.com/xdltek/YOLOv5"><img src="https://img.shields.io/badge/YOLOv5-OPEN_%E2%86%97-087CF0?style=for-the-badge&logo=github&logoColor=white&labelColor=031A35" alt="Open YOLOv5 C++ repository"></a>
-  <a href="https://github.com/xdltek/ResNet50"><img src="https://img.shields.io/badge/RESNET50-OPEN_%E2%86%97-087CF0?style=for-the-badge&logo=github&logoColor=white&labelColor=031A35" alt="Open ResNet50 C++ repository"></a>
+  <a href="https://github.com/xdltek/YOLOv8"><img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/repo-yolov8.svg" alt="Open YOLOv8 C++ repository" width="300"></a>
+  <a href="https://github.com/xdltek/YOLOv5"><img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/repo-yolov5.svg" alt="Open YOLOv5 C++ repository" width="300"></a>
+  <a href="https://github.com/xdltek/ResNet50"><img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/repo-resnet50.svg" alt="Open ResNet50 C++ repository" width="300"></a>
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/PYTHON_DEMOS-031A35?style=for-the-badge" alt="OpenRT Python demos">
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/YOLOv8-PLANNED-6B7280?style=for-the-badge&labelColor=1F2937" alt="YOLOv8 Python demo planned">
-  <a href="https://github.com/xdltek/YOLOv5_Python"><img src="https://img.shields.io/badge/YOLOv5-OPEN_%E2%86%97-087CF0?style=for-the-badge&logo=github&logoColor=white&labelColor=031A35" alt="Open YOLOv5 Python repository"></a>
-  <a href="https://github.com/xdltek/ResNet50_Python"><img src="https://img.shields.io/badge/RESNET50-OPEN_%E2%86%97-087CF0?style=for-the-badge&logo=github&logoColor=white&labelColor=031A35" alt="Open ResNet50 Python repository"></a>
+  <img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/repo-yolov8-planned.svg" alt="YOLOv8 Python demo planned" width="300">
+  <a href="https://github.com/xdltek/YOLOv5_Python"><img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/repo-yolov5.svg" alt="Open YOLOv5 Python repository" width="300"></a>
+  <a href="https://github.com/xdltek/ResNet50_Python"><img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/repo-resnet50.svg" alt="Open ResNet50 Python repository" width="300"></a>
 </p>
 
 <br>
@@ -104,10 +104,10 @@ The **XDL SDK** is the primary entry point for deploying models on XDLTEK hardwa
   <img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/demo-cuda.svg" alt="CUDA-style programming demos" width="100%">
 </p>
 <p align="center">
-  <a href="https://github.com/xdltek/CUDA_Samples"><img src="https://img.shields.io/badge/CUDA_SAMPLES-OPEN_%E2%86%97-087CF0?style=for-the-badge&logo=github&logoColor=white&labelColor=031A35" alt="Open CUDA Samples repository"></a>
+  <a href="https://github.com/xdltek/CUDA_Samples"><img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/repo-cuda-samples.svg" alt="Open CUDA Samples repository" width="300"></a>
 </p>
 <p align="center">
-  <a href="https://github.com/xdltek/high-end-dsp-rpp-cuda"><img src="https://img.shields.io/badge/RPP_CUDA-OPEN_%E2%86%97-087CF0?style=for-the-badge&logo=github&logoColor=white&labelColor=031A35" alt="Open RPP CUDA repository"></a>
+  <a href="https://github.com/xdltek/high-end-dsp-rpp-cuda"><img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/repo-rpp-cuda.svg" alt="Open RPP CUDA repository" width="300"></a>
 </p>
 
 <br>
@@ -116,7 +116,7 @@ The **XDL SDK** is the primary entry point for deploying models on XDLTEK hardwa
   <img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/demo-openstream.svg" alt="OpenStream video analytics application" width="100%">
 </p>
 <p align="center">
-  <a href="https://github.com/xdltek/openstream"><img src="https://img.shields.io/badge/OPENSTREAM-OPEN_%E2%86%97-087CF0?style=for-the-badge&logo=github&logoColor=white&labelColor=031A35" alt="Open OpenStream repository"></a>
+  <a href="https://github.com/xdltek/openstream"><img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/repo-openstream.svg" alt="Open OpenStream repository" width="300"></a>
 </p>
 
 <br>
@@ -125,7 +125,7 @@ The **XDL SDK** is the primary entry point for deploying models on XDLTEK hardwa
   <img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/demo-llama.svg" alt="llama.cpp Qwen-family LLM inference" width="100%">
 </p>
 <p align="center">
-  <a href="https://github.com/xdltek/llama.cpp"><img src="https://img.shields.io/badge/LLAMA.CPP-OPEN_%E2%86%97-087CF0?style=for-the-badge&logo=github&logoColor=white&labelColor=031A35" alt="Open llama.cpp repository"></a>
+  <a href="https://github.com/xdltek/llama.cpp"><img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/repo-llama-cpp.svg" alt="Open llama.cpp repository" width="300"></a>
 </p>
 
 <br>
@@ -134,13 +134,13 @@ The **XDL SDK** is the primary entry point for deploying models on XDLTEK hardwa
   <img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/demo-multicard.svg" alt="Multi-card inference on MC2A" width="100%">
 </p>
 <p align="center">
-  <a href="https://github.com/xdltek/multi_card_YOLOv5"><img src="https://img.shields.io/badge/YOLOv5-OPEN_%E2%86%97-087CF0?style=for-the-badge&logo=github&logoColor=white&labelColor=031A35" alt="Open multi-card YOLOv5 repository"></a>
+  <a href="https://github.com/xdltek/multi_card_YOLOv5"><img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/repo-yolov5.svg" alt="Open multi-card YOLOv5 repository" width="300"></a>
 </p>
 <p align="center">
-  <a href="https://github.com/xdltek/multi_card_classification"><img src="https://img.shields.io/badge/CLASSIFICATION-OPEN_%E2%86%97-087CF0?style=for-the-badge&logo=github&logoColor=white&labelColor=031A35" alt="Open multi-card classification repository"></a>
+  <a href="https://github.com/xdltek/multi_card_classification"><img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/repo-classification.svg" alt="Open multi-card classification repository" width="300"></a>
 </p>
 <p align="center">
-  <a href="https://github.com/xdltek/multi_card_unet"><img src="https://img.shields.io/badge/U--NET-OPEN_%E2%86%97-087CF0?style=for-the-badge&logo=github&logoColor=white&labelColor=031A35" alt="Open multi-card U-Net repository"></a>
+  <a href="https://github.com/xdltek/multi_card_unet"><img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/repo-unet.svg" alt="Open multi-card U-Net repository" width="300"></a>
 </p>
 
 <br>
@@ -152,7 +152,7 @@ The **XDL SDK** is the primary entry point for deploying models on XDLTEK hardwa
 The [**RPP Model Zoo**](https://github.com/xdltek/rpp-model-zoo) provides model references and benchmark data for evaluating workloads on the XDLTEK platform. Automated benchmark scripts are planned.
 
 <p align="center">
-  <a href="https://github.com/xdltek/rpp-model-zoo"><img src="https://img.shields.io/badge/RPP_MODEL_ZOO-OPEN_%E2%86%97-087CF0?style=for-the-badge&logo=github&logoColor=white&labelColor=031A35" alt="Open RPP Model Zoo repository"></a>
+  <a href="https://github.com/xdltek/rpp-model-zoo"><img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/repo-model-zoo.svg" alt="Open RPP Model Zoo repository" width="300"></a>
 </p>
 
 <br>
@@ -168,7 +168,7 @@ The [**RPP Model Zoo**](https://github.com/xdltek/rpp-model-zoo) provides model 
 - Identify unsupported or abnormal operators when a model cannot run
 
 <p align="center">
-  <a href="https://github.com/xdltek/onnx-verify-tools"><img src="https://img.shields.io/badge/ONNX_VERIFY_TOOLS-OPEN_%E2%86%97-087CF0?style=for-the-badge&logo=github&logoColor=white&labelColor=031A35" alt="Open ONNX Verify Tools repository"></a>
+  <a href="https://github.com/xdltek/onnx-verify-tools"><img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/repo-onnx-tools.svg" alt="Open ONNX Verify Tools repository" width="300"></a>
 </p>
 
 ---
