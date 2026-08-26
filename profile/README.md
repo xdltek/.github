@@ -74,36 +74,43 @@ The **XDL SDK** is the primary entry point for deploying models on XDLTEK hardwa
 
 Choose a working example by workload. C++ and Python coverage will continue to expand.
 
-### OpenRT computer vision
+<p align="center">
+  <img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/demo-openrt.svg" alt="OpenRT computer vision demos" width="100%">
+</p>
 
-| Workload | C++ | Python |
-|---|---|---|
-| **YOLOv8** object detection | [YOLOv8](https://github.com/xdltek/YOLOv8) | Python demo planned |
-| **YOLOv5** object detection | [YOLOv5](https://github.com/xdltek/YOLOv5) | [YOLOv5_Python](https://github.com/xdltek/YOLOv5_Python) |
-| **ResNet50** classification | [ResNet50](https://github.com/xdltek/ResNet50) | [ResNet50_Python](https://github.com/xdltek/ResNet50_Python) |
+<p align="center">
+  <a href="https://github.com/xdltek/YOLOv8"><img src="https://img.shields.io/badge/YOLOv8-C%2B%2B-087CF0?style=for-the-badge&labelColor=031A35" alt="YOLOv8 C++ demo"></a>
+  <img src="https://img.shields.io/badge/YOLOv8-PYTHON_PLANNED-6B7280?style=for-the-badge&labelColor=1F2937" alt="YOLOv8 Python demo planned">
+</p>
+<p align="center">
+  <a href="https://github.com/xdltek/YOLOv5"><img src="https://img.shields.io/badge/YOLOv5-C%2B%2B-087CF0?style=for-the-badge&labelColor=031A35" alt="YOLOv5 C++ demo"></a>
+  <a href="https://github.com/xdltek/YOLOv5_Python"><img src="https://img.shields.io/badge/YOLOv5-PYTHON-00A7A0?style=for-the-badge&labelColor=073B3A" alt="YOLOv5 Python demo"></a>
+</p>
+<p align="center">
+  <a href="https://github.com/xdltek/ResNet50"><img src="https://img.shields.io/badge/RESNET50-C%2B%2B-087CF0?style=for-the-badge&labelColor=031A35" alt="ResNet50 C++ demo"></a>
+  <a href="https://github.com/xdltek/ResNet50_Python"><img src="https://img.shields.io/badge/RESNET50-PYTHON-00A7A0?style=for-the-badge&labelColor=073B3A" alt="ResNet50 Python demo"></a>
+</p>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <strong>⚡ CUDA-style programming</strong><br><br>
-      <a href="https://github.com/xdltek/CUDA_Samples">CUDA Samples</a><br>
-      <a href="https://github.com/xdltek/high-end-dsp-rpp-cuda">High-end DSP RPP CUDA</a>
-    </td>
-    <td width="50%" valign="top">
-      <strong>🎬 Complete applications</strong><br><br>
-      <a href="https://github.com/xdltek/openstream">OpenStream</a> · Decode + inference + SORT<br>
-      <a href="https://github.com/xdltek/llama.cpp">llama.cpp</a> · Qwen-family edge LLM inference
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
-      <strong>🔗 Multi-card inference on MC2A</strong><br><br>
-      <a href="https://github.com/xdltek/multi_card_YOLOv5">YOLOv5</a> ·
-      <a href="https://github.com/xdltek/multi_card_classification">Classification</a> ·
-      <a href="https://github.com/xdltek/multi_card_unet">U-Net</a>
-    </td>
-  </tr>
-</table>
+---
+
+<p align="center"><img src="https://img.shields.io/badge/CUDA--STYLE_PROGRAMMING-031A35?style=for-the-badge" alt="CUDA-style programming"></p>
+<p align="center">
+  <a href="https://github.com/xdltek/CUDA_Samples"><img src="https://img.shields.io/badge/CUDA_SAMPLES-OPEN_REPOSITORY-F97316?style=for-the-badge&logo=github&logoColor=white&labelColor=5A2105" alt="CUDA Samples"></a>
+  <a href="https://github.com/xdltek/high-end-dsp-rpp-cuda"><img src="https://img.shields.io/badge/RPP_CUDA-KERNEL_EXAMPLES-F97316?style=for-the-badge&logo=github&logoColor=white&labelColor=5A2105" alt="High-end DSP RPP CUDA"></a>
+</p>
+
+<p align="center"><img src="https://img.shields.io/badge/COMPLETE_APPLICATIONS-073B3A?style=for-the-badge" alt="Complete applications"></p>
+<p align="center">
+  <a href="https://github.com/xdltek/openstream"><img src="https://img.shields.io/badge/OPENSTREAM-DECODE_%2B_INFERENCE_%2B_SORT-00A7A0?style=for-the-badge&logo=github&logoColor=white&labelColor=073B3A" alt="OpenStream application"></a>
+  <a href="https://github.com/xdltek/llama.cpp"><img src="https://img.shields.io/badge/LLAMA.CPP-QWEN_EDGE_LLM-7952DF?style=for-the-badge&logo=github&logoColor=white&labelColor=24124F" alt="llama.cpp Qwen edge LLM"></a>
+</p>
+
+<p align="center"><img src="https://img.shields.io/badge/MULTI--CARD_INFERENCE_ON_MC2A-24124F?style=for-the-badge" alt="Multi-card inference on MC2A"></p>
+<p align="center">
+  <a href="https://github.com/xdltek/multi_card_YOLOv5"><img src="https://img.shields.io/badge/YOLOv5-MULTI--CARD-7952DF?style=for-the-badge&labelColor=24124F" alt="Multi-card YOLOv5"></a>
+  <a href="https://github.com/xdltek/multi_card_classification"><img src="https://img.shields.io/badge/CLASSIFICATION-MULTI--CARD-7952DF?style=for-the-badge&labelColor=24124F" alt="Multi-card classification"></a>
+  <a href="https://github.com/xdltek/multi_card_unet"><img src="https://img.shields.io/badge/U--NET-MULTI--CARD-7952DF?style=for-the-badge&labelColor=24124F" alt="Multi-card U-Net"></a>
+</p>
 
 <br>
 
