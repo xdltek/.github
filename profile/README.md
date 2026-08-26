@@ -94,22 +94,39 @@ The **XDL SDK** is the primary entry point for deploying models on XDLTEK hardwa
   <a href="https://github.com/xdltek/ResNet50_Python"><img src="https://img.shields.io/badge/RESNET50_PYTHON-OPEN_%E2%86%97-00A7A0?style=for-the-badge&logo=github&logoColor=white&labelColor=073B3A" alt="Open ResNet50 Python repository"></a>
 </p>
 
----
+<br>
 
-<p align="center"><img src="https://img.shields.io/badge/CUDA--STYLE_PROGRAMMING-031A35?style=for-the-badge" alt="CUDA-style programming"></p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/demo-cuda.svg" alt="CUDA-style programming demos" width="100%">
+</p>
 <p align="center">
   <a href="https://github.com/xdltek/CUDA_Samples"><img src="https://img.shields.io/badge/CUDA_SAMPLES-OPEN_%E2%86%97-F97316?style=for-the-badge&logo=github&logoColor=white&labelColor=5A2105" alt="Open CUDA Samples repository"></a>
   <a href="https://github.com/xdltek/high-end-dsp-rpp-cuda"><img src="https://img.shields.io/badge/RPP_CUDA-OPEN_%E2%86%97-F97316?style=for-the-badge&logo=github&logoColor=white&labelColor=5A2105" alt="Open RPP CUDA repository"></a>
 </p>
 
-<p align="center"><img src="https://img.shields.io/badge/COMPLETE_APPLICATIONS-073B3A?style=for-the-badge" alt="Complete applications"></p>
+<br>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/demo-openstream.svg" alt="OpenStream video analytics application" width="100%">
+</p>
 <p align="center">
   <a href="https://github.com/xdltek/openstream"><img src="https://img.shields.io/badge/OPENSTREAM-OPEN_%E2%86%97-00A7A0?style=for-the-badge&logo=github&logoColor=white&labelColor=073B3A" alt="Open OpenStream repository"></a>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/demo-llama.svg" alt="llama.cpp Qwen-family LLM inference" width="100%">
+</p>
+<p align="center">
   <a href="https://github.com/xdltek/llama.cpp"><img src="https://img.shields.io/badge/LLAMA.CPP-OPEN_%E2%86%97-7952DF?style=for-the-badge&logo=github&logoColor=white&labelColor=24124F" alt="Open llama.cpp repository"></a>
 </p>
-<p align="center"><sub>OpenStream: decode + inference + SORT · llama.cpp: Qwen-family edge LLM inference</sub></p>
 
-<p align="center"><img src="https://img.shields.io/badge/MULTI--CARD_INFERENCE_ON_MC2A-24124F?style=for-the-badge" alt="Multi-card inference on MC2A"></p>
+<br>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/demo-multicard.svg" alt="Multi-card inference on MC2A" width="100%">
+</p>
 <p align="center">
   <a href="https://github.com/xdltek/multi_card_YOLOv5"><img src="https://img.shields.io/badge/YOLOv5-OPEN_%E2%86%97-7952DF?style=for-the-badge&logo=github&logoColor=white&labelColor=24124F" alt="Open multi-card YOLOv5 repository"></a>
   <a href="https://github.com/xdltek/multi_card_classification"><img src="https://img.shields.io/badge/CLASSIFICATION-OPEN_%E2%86%97-7952DF?style=for-the-badge&logo=github&logoColor=white&labelColor=24124F" alt="Open multi-card classification repository"></a>
