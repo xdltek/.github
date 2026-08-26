@@ -72,44 +72,48 @@ The **XDL SDK** is the primary entry point for deploying models on XDLTEK hardwa
   <img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/section-demos.svg" alt="02 Application Demos" width="100%">
 </p>
 
-Choose a working example by workload. C++ and Python coverage will continue to expand.
+<p align="center">
+  <strong>Choose a workload, then select an <code>OPEN ↗</code> button to launch its GitHub repository.</strong><br>
+  <sub>Buttons with the GitHub icon are clickable · Gray PLANNED labels are not yet available</sub>
+</p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/demo-openrt.svg" alt="OpenRT computer vision demos" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://github.com/xdltek/YOLOv8"><img src="https://img.shields.io/badge/YOLOv8-C%2B%2B-087CF0?style=for-the-badge&labelColor=031A35" alt="YOLOv8 C++ demo"></a>
+  <a href="https://github.com/xdltek/YOLOv8"><img src="https://img.shields.io/badge/YOLOv8_C%2B%2B-OPEN_%E2%86%97-087CF0?style=for-the-badge&logo=github&logoColor=white&labelColor=031A35" alt="Open YOLOv8 C++ repository"></a>
   <img src="https://img.shields.io/badge/YOLOv8-PYTHON_PLANNED-6B7280?style=for-the-badge&labelColor=1F2937" alt="YOLOv8 Python demo planned">
 </p>
 <p align="center">
-  <a href="https://github.com/xdltek/YOLOv5"><img src="https://img.shields.io/badge/YOLOv5-C%2B%2B-087CF0?style=for-the-badge&labelColor=031A35" alt="YOLOv5 C++ demo"></a>
-  <a href="https://github.com/xdltek/YOLOv5_Python"><img src="https://img.shields.io/badge/YOLOv5-PYTHON-00A7A0?style=for-the-badge&labelColor=073B3A" alt="YOLOv5 Python demo"></a>
+  <a href="https://github.com/xdltek/YOLOv5"><img src="https://img.shields.io/badge/YOLOv5_C%2B%2B-OPEN_%E2%86%97-087CF0?style=for-the-badge&logo=github&logoColor=white&labelColor=031A35" alt="Open YOLOv5 C++ repository"></a>
+  <a href="https://github.com/xdltek/YOLOv5_Python"><img src="https://img.shields.io/badge/YOLOv5_PYTHON-OPEN_%E2%86%97-00A7A0?style=for-the-badge&logo=github&logoColor=white&labelColor=073B3A" alt="Open YOLOv5 Python repository"></a>
 </p>
 <p align="center">
-  <a href="https://github.com/xdltek/ResNet50"><img src="https://img.shields.io/badge/RESNET50-C%2B%2B-087CF0?style=for-the-badge&labelColor=031A35" alt="ResNet50 C++ demo"></a>
-  <a href="https://github.com/xdltek/ResNet50_Python"><img src="https://img.shields.io/badge/RESNET50-PYTHON-00A7A0?style=for-the-badge&labelColor=073B3A" alt="ResNet50 Python demo"></a>
+  <a href="https://github.com/xdltek/ResNet50"><img src="https://img.shields.io/badge/RESNET50_C%2B%2B-OPEN_%E2%86%97-087CF0?style=for-the-badge&logo=github&logoColor=white&labelColor=031A35" alt="Open ResNet50 C++ repository"></a>
+  <a href="https://github.com/xdltek/ResNet50_Python"><img src="https://img.shields.io/badge/RESNET50_PYTHON-OPEN_%E2%86%97-00A7A0?style=for-the-badge&logo=github&logoColor=white&labelColor=073B3A" alt="Open ResNet50 Python repository"></a>
 </p>
 
 ---
 
 <p align="center"><img src="https://img.shields.io/badge/CUDA--STYLE_PROGRAMMING-031A35?style=for-the-badge" alt="CUDA-style programming"></p>
 <p align="center">
-  <a href="https://github.com/xdltek/CUDA_Samples"><img src="https://img.shields.io/badge/CUDA_SAMPLES-OPEN_REPOSITORY-F97316?style=for-the-badge&logo=github&logoColor=white&labelColor=5A2105" alt="CUDA Samples"></a>
-  <a href="https://github.com/xdltek/high-end-dsp-rpp-cuda"><img src="https://img.shields.io/badge/RPP_CUDA-KERNEL_EXAMPLES-F97316?style=for-the-badge&logo=github&logoColor=white&labelColor=5A2105" alt="High-end DSP RPP CUDA"></a>
+  <a href="https://github.com/xdltek/CUDA_Samples"><img src="https://img.shields.io/badge/CUDA_SAMPLES-OPEN_%E2%86%97-F97316?style=for-the-badge&logo=github&logoColor=white&labelColor=5A2105" alt="Open CUDA Samples repository"></a>
+  <a href="https://github.com/xdltek/high-end-dsp-rpp-cuda"><img src="https://img.shields.io/badge/RPP_CUDA-OPEN_%E2%86%97-F97316?style=for-the-badge&logo=github&logoColor=white&labelColor=5A2105" alt="Open RPP CUDA repository"></a>
 </p>
 
 <p align="center"><img src="https://img.shields.io/badge/COMPLETE_APPLICATIONS-073B3A?style=for-the-badge" alt="Complete applications"></p>
 <p align="center">
-  <a href="https://github.com/xdltek/openstream"><img src="https://img.shields.io/badge/OPENSTREAM-DECODE_%2B_INFERENCE_%2B_SORT-00A7A0?style=for-the-badge&logo=github&logoColor=white&labelColor=073B3A" alt="OpenStream application"></a>
-  <a href="https://github.com/xdltek/llama.cpp"><img src="https://img.shields.io/badge/LLAMA.CPP-QWEN_EDGE_LLM-7952DF?style=for-the-badge&logo=github&logoColor=white&labelColor=24124F" alt="llama.cpp Qwen edge LLM"></a>
+  <a href="https://github.com/xdltek/openstream"><img src="https://img.shields.io/badge/OPENSTREAM-OPEN_%E2%86%97-00A7A0?style=for-the-badge&logo=github&logoColor=white&labelColor=073B3A" alt="Open OpenStream repository"></a>
+  <a href="https://github.com/xdltek/llama.cpp"><img src="https://img.shields.io/badge/LLAMA.CPP-OPEN_%E2%86%97-7952DF?style=for-the-badge&logo=github&logoColor=white&labelColor=24124F" alt="Open llama.cpp repository"></a>
 </p>
+<p align="center"><sub>OpenStream: decode + inference + SORT · llama.cpp: Qwen-family edge LLM inference</sub></p>
 
 <p align="center"><img src="https://img.shields.io/badge/MULTI--CARD_INFERENCE_ON_MC2A-24124F?style=for-the-badge" alt="Multi-card inference on MC2A"></p>
 <p align="center">
-  <a href="https://github.com/xdltek/multi_card_YOLOv5"><img src="https://img.shields.io/badge/YOLOv5-MULTI--CARD-7952DF?style=for-the-badge&labelColor=24124F" alt="Multi-card YOLOv5"></a>
-  <a href="https://github.com/xdltek/multi_card_classification"><img src="https://img.shields.io/badge/CLASSIFICATION-MULTI--CARD-7952DF?style=for-the-badge&labelColor=24124F" alt="Multi-card classification"></a>
-  <a href="https://github.com/xdltek/multi_card_unet"><img src="https://img.shields.io/badge/U--NET-MULTI--CARD-7952DF?style=for-the-badge&labelColor=24124F" alt="Multi-card U-Net"></a>
+  <a href="https://github.com/xdltek/multi_card_YOLOv5"><img src="https://img.shields.io/badge/YOLOv5-OPEN_%E2%86%97-7952DF?style=for-the-badge&logo=github&logoColor=white&labelColor=24124F" alt="Open multi-card YOLOv5 repository"></a>
+  <a href="https://github.com/xdltek/multi_card_classification"><img src="https://img.shields.io/badge/CLASSIFICATION-OPEN_%E2%86%97-7952DF?style=for-the-badge&logo=github&logoColor=white&labelColor=24124F" alt="Open multi-card classification repository"></a>
+  <a href="https://github.com/xdltek/multi_card_unet"><img src="https://img.shields.io/badge/U--NET-OPEN_%E2%86%97-7952DF?style=for-the-badge&logo=github&logoColor=white&labelColor=24124F" alt="Open multi-card U-Net repository"></a>
 </p>
 
 <br>
