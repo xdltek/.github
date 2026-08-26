@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-labelledby="title desc">
+  <title id="title">03 Model Zoo and Benchmarks</title><desc id="desc">Evaluate model coverage and performance references</desc>
+  <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#170b35"/><stop offset=".55" stop-color="#5130a5"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient><pattern id="p" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M18 2l16 9v18l-16 9-16-9V11z" fill="none" stroke="#d8c8ff" stroke-opacity=".16"/></pattern></defs>
+  <rect width="1200" height="150" rx="18" fill="url(#g)"/><rect width="1200" height="150" rx="18" fill="url(#p)"/>
+  <circle cx="75" cy="75" r="40" fill="#7952df"/><path d="M55 62l20-10 20 10-20 10zM55 62v22l20 10 20-10V62M75 72v22" fill="none" stroke="#fff" stroke-width="5" stroke-linejoin="round"/>
+  <text x="140" y="66" fill="#d8c8ff" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="3">03 · EVALUATE</text><text x="140" y="108" fill="#fff" font-family="Arial, sans-serif" font-size="38" font-weight="700">Model Zoo &amp; Benchmarks</text><text x="800" y="88" fill="#eee7ff" font-family="Arial, sans-serif" font-size="22">Models · Results · Coverage</text>
+</svg>

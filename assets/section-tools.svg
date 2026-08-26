@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-labelledby="title desc">
+  <title id="title">04 Deployment Tools</title><desc id="desc">Inspect, repair, profile, and verify ONNX models</desc>
+  <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#291006"/><stop offset=".55" stop-color="#a13e0a"/><stop offset="1" stop-color="#f97316"/></linearGradient><pattern id="p" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M0 16h12l4-4h16M16 32V20l4-4" fill="none" stroke="#ffd3b5" stroke-opacity=".16"/></pattern></defs>
+  <rect width="1200" height="150" rx="18" fill="url(#g)"/><rect width="1200" height="150" rx="18" fill="url(#p)"/>
+  <circle cx="75" cy="75" r="40" fill="#ef6814"/><path d="M66 54h18l3 9 9 3v18l-9 3-3 9H66l-3-9-9-3V66l9-3zM75 69a9 9 0 1 0 0 18 9 9 0 0 0 0-18z" fill="none" stroke="#fff" stroke-width="5" stroke-linejoin="round"/>
+  <text x="140" y="66" fill="#ffd3b5" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="3">04 · VERIFY</text><text x="140" y="108" fill="#fff" font-family="Arial, sans-serif" font-size="38" font-weight="700">Deployment Tools</text><text x="730" y="88" fill="#fff0e5" font-family="Arial, sans-serif" font-size="22">Inspect · Repair · Profile · Validate</text>
+</svg>

@@ -5,47 +5,48 @@
 <h1 align="center">AI compute, from silicon to complete systems.</h1>
 
 <p align="center">
-  XDLTEK delivers a vertically integrated AI inference platform: RPP processors, AzureBlade accelerator cards,<br>
-  edge AI boxes, servers, and the software to deploy real workloads.
+  XDLTEK delivers a vertically integrated AI inference platform—from RPP processors and AzureBlade<br>
+  accelerator cards to edge AI boxes, multi-card servers, and deployment software.
 </p>
 
 <p align="center">
-  <a href="https://github.com/xdltek/xdl-sdk"><strong>Get the XDL SDK</strong></a>
-  ·
-  <a href="#choose-your-hardware"><strong>Choose hardware</strong></a>
-  ·
-  <a href="#build-with-xdltek"><strong>Explore demos</strong></a>
+  <a href="https://github.com/xdltek/xdl-sdk"><img src="https://img.shields.io/badge/GET_THE_XDL_SDK-087CF0?style=for-the-badge&logo=github&logoColor=white" alt="Get the XDL SDK"></a>
+  <a href="#hardware-portfolio"><img src="https://img.shields.io/badge/EXPLORE_HARDWARE-00A7A0?style=for-the-badge" alt="Explore hardware"></a>
+  <a href="#application-demos"><img src="https://img.shields.io/badge/VIEW_DEMOS-7952DF?style=for-the-badge" alt="View demos"></a>
 </p>
 
 ---
 
-## One platform. Four ways to deploy.
+## Hardware portfolio
 
-| Silicon | Accelerator cards | Edge AI boxes | AI server |
-|:---:|:---:|:---:|:---:|
-| **AE7100E · AE7103** | **M.2 · HHHL · FHFL** | **Arm · Intel · FPGA hosts** | **Up to 4× MC2A cards** |
-| Purpose-built RPP processors | Scale from compact edge devices to high-throughput systems | Integrated, deployment-ready appliances | Dense multi-card inference in AS1000 |
+<p align="center">
+  <strong>One architecture. Multiple form factors. From compact edge deployment to dense server inference.</strong>
+</p>
 
-XDLTEK gives customers one path from an ONNX model to deployed inference: develop with the XDL SDK, validate with production-oriented demos, then select the form factor that fits the site.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/product-portfolio.png" alt="XDLTEK AzureBlade KA08, PB08, and MC2A accelerator cards" width="100%">
+</p>
 
-## Choose your hardware
+<table>
+  <tr>
+    <td align="center" width="33%"><strong>KA08 Series</strong><br><sub>AzureBlade M.2</sub><br><br>Compact edge and embedded systems</td>
+    <td align="center" width="33%"><strong>PB08 Series</strong><br><sub>AzureBlade HHHL PCIe</sub><br><br>Workstations and edge servers</td>
+    <td align="center" width="33%"><strong>MC2A Series</strong><br><sub>AzureBlade FHFL PCIe · Dual-slot</sub><br><br>High-throughput and multi-card inference</td>
+  </tr>
+</table>
 
-### RPP processors
+### From chip to system
 
-| Product | Designed for |
-|---|---|
-| **AE7100E** | High-performance AI inference across XDLTEK accelerator products |
-| **AE7103** | Compact, efficient inference deployments |
-
-### AzureBlade accelerator cards
-
-| Product family | Form factor | Best fit |
+| Product layer | Portfolio | Deployment choice |
 |---|---|---|
-| **KA08 Series** | M.2 | Space-constrained edge devices and embedded systems |
-| **PB08 Series** | HHHL PCIe | Compact workstations and edge servers |
-| **MC2A Series** | FHFL PCIe, dual-slot | High-throughput servers and multi-card inference |
+| **RPP processors** | **AE7100E · AE7103** | Purpose-built AI inference silicon |
+| **Accelerator cards** | **KA08 · PB08 · MC2A** | M.2, HHHL PCIe, and FHFL PCIe form factors |
+| **Edge AI boxes** | **SR8 · SN5 · SI7 · RPP-BlackBox** | Integrated Arm, Intel, and FPGA host platforms |
+| **AI server** | **AzureStation AS1000** | Up to **4× MC2A** dual-slot cards |
 
-### Integrated systems
+<details>
+<summary><strong>View integrated system configurations</strong></summary>
+<br>
 
 | System | Host platform | Integrated XDLTEK acceleration |
 |---|---|---|
@@ -55,70 +56,98 @@ XDLTEK gives customers one path from an ONNX model to deployed inference: develo
 | **AzureEdge SI7** | Intel Core i7 AI box | **1× PB08** HHHL PCIe card |
 | **RPP-BlackBox** | AMD/Xilinx XCZU11EG platform | Up to **3× KA08** accelerator cards |
 
+</details>
+
 > Product configurations can vary by deployment. Confirm interfaces, environmental specifications, and the final card configuration with XDLTEK before ordering.
 
-## Start with the XDL SDK
-
-The **XDL SDK** is the primary entry point for deploying models on XDLTEK hardware. Use it to set up the runtime and toolchain before moving to the workload examples below.
+<br>
 
 <p align="center">
-  <a href="https://github.com/xdltek/xdl-sdk"><strong>Open xdltek/xdl-sdk →</strong></a>
+  <img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/section-sdk.svg" alt="01 XDL SDK — Start here" width="100%">
 </p>
 
-## Build with XDLTEK
+The **XDL SDK** is the primary entry point for deploying models on XDLTEK hardware. Set up the runtime and toolchain here, then select a workload demo as your application baseline.
 
-Start from a working application that matches your workload. C++ and Python coverage will continue to expand.
+<p align="center">
+  <a href="https://github.com/xdltek/xdl-sdk"><img src="https://img.shields.io/badge/OPEN_xdltek%2Fxdl--sdk-087CF0?style=for-the-badge&logo=github&logoColor=white" alt="Open xdltek/xdl-sdk"></a>
+</p>
 
-<details open>
-<summary><strong>OpenRT · Computer vision inference</strong></summary>
 <br>
+
+## Application demos
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/section-demos.svg" alt="02 Application Demos" width="100%">
+</p>
+
+Choose a working example by workload. C++ and Python coverage will continue to expand.
+
+### OpenRT computer vision
 
 | Workload | C++ | Python |
 |---|---|---|
-| YOLOv8 object detection | [YOLOv8](https://github.com/xdltek/YOLOv8) | Python demo planned |
-| YOLOv5 object detection | [YOLOv5](https://github.com/xdltek/YOLOv5) | [YOLOv5_Python](https://github.com/xdltek/YOLOv5_Python) |
-| ResNet50 classification | [ResNet50](https://github.com/xdltek/ResNet50) | [ResNet50_Python](https://github.com/xdltek/ResNet50_Python) |
+| **YOLOv8** object detection | [YOLOv8](https://github.com/xdltek/YOLOv8) | Python demo planned |
+| **YOLOv5** object detection | [YOLOv5](https://github.com/xdltek/YOLOv5) | [YOLOv5_Python](https://github.com/xdltek/YOLOv5_Python) |
+| **ResNet50** classification | [ResNet50](https://github.com/xdltek/ResNet50) | [ResNet50_Python](https://github.com/xdltek/ResNet50_Python) |
 
-</details>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>⚡ CUDA-style programming</strong><br><br>
+      <a href="https://github.com/xdltek/CUDA_Samples">CUDA Samples</a><br>
+      <a href="https://github.com/xdltek/high-end-dsp-rpp-cuda">High-end DSP RPP CUDA</a>
+    </td>
+    <td width="50%" valign="top">
+      <strong>🎬 Complete applications</strong><br><br>
+      <a href="https://github.com/xdltek/openstream">OpenStream</a> · Decode + inference + SORT<br>
+      <a href="https://github.com/xdltek/llama.cpp">llama.cpp</a> · Qwen-family edge LLM inference
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <strong>🔗 Multi-card inference on MC2A</strong><br><br>
+      <a href="https://github.com/xdltek/multi_card_YOLOv5">YOLOv5</a> ·
+      <a href="https://github.com/xdltek/multi_card_classification">Classification</a> ·
+      <a href="https://github.com/xdltek/multi_card_unet">U-Net</a>
+    </td>
+  </tr>
+</table>
 
-<details>
-<summary><strong>CUDA-style programming · Kernel and optimization samples</strong></summary>
 <br>
 
-- [CUDA Samples](https://github.com/xdltek/CUDA_Samples) — programming examples for the XDLTEK compute platform
-- [High-end DSP RPP CUDA](https://github.com/xdltek/high-end-dsp-rpp-cuda) — RPP CUDA-style kernels and optimization examples
+<p align="center">
+  <img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/section-model-zoo.svg" alt="03 Model Zoo and Benchmarks" width="100%">
+</p>
 
-</details>
+### Evaluate model coverage
 
-<details>
-<summary><strong>Complete applications · Video analytics and edge LLMs</strong></summary>
+The [**RPP Model Zoo**](https://github.com/xdltek/rpp-model-zoo) provides model references and benchmark data for evaluating workloads on the XDLTEK platform. Automated benchmark scripts are planned.
+
+<p align="center">
+  <a href="https://github.com/xdltek/rpp-model-zoo"><img src="https://img.shields.io/badge/EXPLORE_RPP_MODEL_ZOO-7952DF?style=for-the-badge&logo=github&logoColor=white" alt="Explore RPP Model Zoo"></a>
+</p>
+
 <br>
 
-- [OpenStream](https://github.com/xdltek/openstream) — hardware video decode, inference, and SORT tracking in one pipeline
-- [llama.cpp](https://github.com/xdltek/llama.cpp) — edge large-language-model inference for the Qwen model family
+<p align="center">
+  <img src="https://raw.githubusercontent.com/xdltek/.github/main/assets/section-tools.svg" alt="04 Deployment Tools" width="100%">
+</p>
 
-</details>
+### Inspect models before deployment
 
-<details>
-<summary><strong>Multi-card inference · Scale on MC2A</strong></summary>
-<br>
+[**ONNX Verify Tools**](https://github.com/xdltek/onnx-verify-tools) helps teams prepare and diagnose ONNX models:
 
-- [Multi-card YOLOv5](https://github.com/xdltek/multi_card_YOLOv5)
-- [Multi-card classification](https://github.com/xdltek/multi_card_classification)
-- [Multi-card U-Net](https://github.com/xdltek/multi_card_unet)
+- Repair dynamic dimensions into deployment-ready static shapes
+- Print per-node MACs, activation and parameter memory, and parameter counts
+- Identify unsupported or abnormal operators when a model cannot run
 
-</details>
-
-## Models, benchmarks, and tools
-
-| Resource | What it provides |
-|---|---|
-| [RPP Model Zoo](https://github.com/xdltek/rpp-model-zoo) | Model references and benchmark data; automated scripts are planned |
-| [ONNX Verify Tools](https://github.com/xdltek/onnx-verify-tools) | Dynamic-to-static shape repair, per-node MACs and memory analysis, parameter counts, and unsupported-operator diagnosis |
+<p align="center">
+  <a href="https://github.com/xdltek/onnx-verify-tools"><img src="https://img.shields.io/badge/OPEN_ONNX_VERIFY_TOOLS-F97316?style=for-the-badge&logo=github&logoColor=white" alt="Open ONNX Verify Tools"></a>
+</p>
 
 ---
 
 <p align="center">
-  <strong>Ready to evaluate XDLTEK?</strong><br>
-  Start with the <a href="https://github.com/xdltek/xdl-sdk">XDL SDK</a>, select a <a href="#choose-your-hardware">deployment platform</a>, and use the closest demo as your application baseline.
+  <strong>Build your next AI deployment with XDLTEK.</strong><br><br>
+  Start with the <a href="https://github.com/xdltek/xdl-sdk">XDL SDK</a> · Choose an accelerator · Scale from edge to server
 </p>
